@@ -32,4 +32,22 @@
         text-align: center;
       }
 
+      .teacher img {
+        max-width: 120px;
+        border-radius: 50%;
+      }
+    
+      .teacher-photo {
+        background: transparent;
+        max-width: 100%;
+      }
+    
+      .teacher {
+        text-align: center;
+      }
+    
+      .teacher--middle img {
+        right: auto;
+      }
+
     }
