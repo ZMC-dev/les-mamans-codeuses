@@ -1,0 +1,35 @@
+@media (max-width: 1160px) {
+    header {
+      padding: 0 15px;
+    }
+  
+    header img {
+      margin: 0 auto;
+      position: static;
+      margin: 0 auto;
+      left: auto;
+      right: auto;
+      display: block;
+    }
+
+    .section {
+        padding: 0 15px;
+      }
+
+      .event {
+        text-align: center;
+      }
+    
+      .section-separator {
+        display: none;
+      }
+    
+      .section-header h2 {
+        font-size: 32px;
+      }
+    
+      .mission__list-item {
+        text-align: center;
+      }
+
+    }
