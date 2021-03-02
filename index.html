@@ -217,23 +217,34 @@
     <a name="form"></a>
     <form>
       <div class="section-separator section-separator--left"></div>
-      <div class="form-group"></div>
         <section class="section section--secondary">
           <div class="section-header">
             <div class="content-inner">
               <h3 class="center">Formulaire de contact</h2>
         <p>Si tu souhaites en savoir plus, laisse nous tes cordonnées, notre équipe te contactera</p>
+        
+        <div class="form-group">
         <label for="email">Email</label>
         <input type="email" class="form-control" id="form-email" placeholder="Ecrire son adresse mail">
-        <small id="form-email" class="form-text text-muted">Tes données ne seront jamais partagées</small>
-        <div class="form-check"></div>
-        <label for="name">Nom et Prénom</label>
-        <input type="text" class="form-control" id="form-name"  placeholder="Ecrire son nom et prénom">
-        <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Se souvenir de moi</label>
+        <small id="email" class="form-text text-muted">Tes données ne seront jamais partagées</small>
         </div>
-        <button type="submit" class="btn btn-primary">Soumettre</button>
+
+        <div class="form-group">
+        <label for="name">Nom et Prénom</label>
+        <input type="text" class="form-control" id="name"  placeholder="Ecrire son nom et prénom">
+        </div>
+        
+        <div class="form-group">
+        <label for="phone">Numéro de téléphone</label>
+        <input type="tel" class="form-control" id="phone" placeholder="06 12 34 56 78" pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}" required>
+        </div>
+
+        <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="remember-me">
+        <label class="form-check-label" for="remember-me">Se souvenir de moi</label>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Envoyer</button>
           </div>
         </div>
       </section>

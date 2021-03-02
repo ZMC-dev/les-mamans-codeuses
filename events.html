@@ -118,7 +118,7 @@
                         <small> Atelier d'introduction au Web development avec les langages HTML & CSS, cela vous permettra de découvrir la base pour la création d'un page Web</small>
                         <br>
                         <br>
-                        <a href="#form" class="cta pull-center btn-primary">
+                        <a href="#suscription" class="cta pull-center btn-primary">
                             S'inscrire
                           </a>
                     </div>
@@ -146,7 +146,7 @@
                         <small> Hinde, développeuse Web, vous donnera un excellent apperçu de ce métier.</small>
                         <br>
                         <br>
-                        <a href="#form" class="cta pull-center btn-primary">
+                        <a href="#suscription" class="cta pull-center btn-primary">
                             S'inscrire
                           </a>
                     </div>
@@ -174,7 +174,7 @@
                         <small>Bathilde, Myriam et Flora partageront avec nous leurs expériences afin d'ouvrir le débat : avons-nous pris notre place dans cet univers ?  </small>
                         <br>
                         <br>
-                        <a href="#form" class="cta pull-center btn-primary">
+                        <a href="#suscription class=" class="cta pull-center btn-primary">
                             S'inscrire
                           </a>
                     </div>
@@ -202,7 +202,7 @@
                         <small> Atelier d'introduction au Web development avec les langages HTML & CSS, cela vous permettra de découvrir la base pour la création d'un page Web</small>
                         <br>
                         <br>
-                        <a href="#form" class="cta pull-center btn-primary">
+                        <a href="#suscription" class="cta pull-center  btn-primary">
                             S'inscrire
                           </a>
                     </div>
@@ -211,6 +211,48 @@
         </section>
     </div>
     <div class="section-separator"></div>
+
+    <a name="suscription"></a>
+    <form>
+        <div class="section-separator"></div>
+            <section class="section section--secondary">
+                <div class="section-header">
+                    <div class="content-inner">
+        <h3>Formulaire d'inscription</h3>
+        <p>Notre équipe pédagogique te contactera dans les plus brefs délais afin de valider ton inscription</p>
+        
+        <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="form-email" placeholder="Ecrire son adresse mail" required>
+        <small id="form-email" class="form-text text-muted">Tes données ne seront jamais partagées</small>      
+        </div>
+
+        <div class="form-group">
+            <label for="name">Nom et Prénom</label>
+            <input type="text" class="form-control" id="form-name"  placeholder="Ecrire son nom et prénom" required>
+        </div>
+
+        <div class="form-group">
+          <label for="event-list">Événement qui m'intéresse</label>
+          <select class="form-control" id="event-list" required>
+            <option>Atelier HTML & CSS Débutant - Jeudi 18 février 2021</option>
+            <option>Conférence : découvrir le métier de développeuse - Lundi 21 février 2021</option>
+            <option>Workshop : la place de la femme dans l'univers de la programmation - Mercredi 23 février 2021</option>
+            <option>Atelier HTML & CSS Débutant - Jeudi 25 février 2021</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+            <label for="phone">Numéro de téléphone</label>
+            <input type="tel" class="form-control" id="phone" placeholder="06 12 34 56 78" pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}" required>
+            </div>
+    
+        <button type="submit" class="btn btn-primary">Envoyer</button>
+        </div>  
+        </div>
+    </section>
+</div>
+      </form>
     <footer class="center">
         Ce site website a été codée par LES MAMANS CODEUSES 
     </footer>
