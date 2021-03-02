@@ -32,22 +32,46 @@
         text-align: center;
       }
 
+      /*
       .teacher img {
         max-width: 120px;
-        border-radius: 50%;
+        border-radius: 50%; 
       }
     
       .teacher-photo {
         background: transparent;
-        max-width: 100%;
-      }
+        max-width: 100%; 
+      } */
     
+
       .teacher {
         text-align: center;
       }
     
+      /*
       .teacher--middle img {
         right: auto;
+      } */
+
+
+    /* cela fera les colonnes de la même taille - test 
+    
+      .row-team {
+          display: table;
+          width: 100%;
       }
+
+      .col-teachers {
+          display: table-cell;
+      }
+    
+      @media only screen and (max-width: 600px) {
+          .col-teachers{
+              display: block;
+              width: 100%;
+          }
+      }
+      */ 
+        
 
     }
