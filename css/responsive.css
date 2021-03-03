@@ -2,7 +2,7 @@
     header {
       padding: 0 15px;
     }
-  
+
     header img {
       margin: 0 auto;
       position: static;
@@ -55,7 +55,7 @@
 
 
     /* cela fera les colonnes de la même taille - test 
-    
+
       .row-team {
           display: table;
           width: 100%;
