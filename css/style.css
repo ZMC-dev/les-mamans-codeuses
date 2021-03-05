@@ -1,25 +1,25 @@
-html {
-    background: url('../images/separators/separator--left-rounded.png') no-repeat left -50px bottom 50px;
-  }
-  
+
   body {
     position: relative;
     padding-top: 100px;
-    background: url('../images/separators/separator--right-rounded.png') no-repeat right 360px;
   }
   
   body * {
     font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
   }
   
+  p {
+    font-size: 18px;
+  }
+
   .btn-primary {
     border-radius: 25px;
-    background: #885df1;
+    background: #885df1; 
     text-decoration: none;
     color: #fff;
     font-size: 16px;
     line-height: 22px;
-    padding: 16px 24px;
+    padding: 16px 20px;
     border: none;
     border: 1px solid #885df1;
     transition: background 200ms ease, border-color 200ms ease;
@@ -34,55 +34,16 @@ html {
     font-size: 22px;
     padding-right: 5px;
   }
-  
-  .btn-secondary {
-    border-radius: 25px;
-    background: #fff;
-    text-decoration: none;
-    color: #9c5d97;
-    font-size: 16px;
-    line-height: 22px;
-    padding: 16px 24px;
-    border: none;
-    border: 1px solid #9c5d97;
-    transition: background 200ms ease;
-  }
-  
-  .btn-secondary:hover {
-    background: #9c5d97;
-    color: #fff;
-  }
-  
 
-  h2 {
-    color: #885df1;
-    font-size: 52px;
-    margin: 0;
-    padding: 0 0 24px;
-    line-height: 42px;
-    font-weight: 600;
-    text-align: center;
-  }
 
-  
   a {
     color: #272044;
-    text-decoration: underline
+    text-decoration:none;
   }
   
   a:hover {
     text-decoration: none;
   }
-  
-  /*
-  p {
-    font-family: 'PT Mono', monospace;
-    margin: 24px 0;
-    color: #9C5D97;
-    font-size: 18px;
-    line-height: 28px;
-    font-family: 'PT Mono', monospace;
-  } */
   
   .center {
     text-align: center;
@@ -101,24 +62,6 @@ html {
   .shadow {
     box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
   }
-  
-  .headroom--unpinned header,
-  .headroom--not-top header {
-    box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
-    background: rgba(255, 255, 255, 0.97);
-    height: 88px;
-  }
-  
-  .headroom--unpinned .header-inner,
-  .headroom--not-top .header-inner {
-    margin: 20px 0;
-  }
-  
-  /*
-  .headroom--unpinned .banner--upcoming,
-  .headroom--not-top .banner--upcoming {
-    box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
-  } */
   
   .content-inner {
     max-width: 960px;
@@ -139,6 +82,7 @@ html {
     margin: 35px 0;
     position: relative;
     transition: margin 200ms ease-in-out;
+    text-decoration: none;
   }
   
   header img {
@@ -162,7 +106,7 @@ html {
   header li a {
     font-size: 14px;
     line-height: 48px;
-    font-weight: 500;
+    font-weight: 900;
     padding: 0 12px;
     color: #272044;
     text-decoration: none;
@@ -174,73 +118,45 @@ html {
     top: 5px;
   }
   
-  header .cta {
-    /* color:           #fff;
-    background:      #885df1; */
-    font-weight: 500;
-    margin-left: 10px;
-    border-radius: 25px;
-    text-decoration: none;
-    font-size: 14px;
-    display: block;
-    line-height: 34px;
-    transition: box-shadow 200ms ease-in-out;
-    padding: 0 20px;
-  }
-  
-  .headroom--unpinned header .ctas .btn-primary,
-  .headroom--not-top header .ctas .btn-primary {
-    box-shadow: rgba(37, 39, 89, 0.08) 0px 4px 4px 0;
-  }
 
   .section--primary {
     margin: 120px auto 40px;
   }
   
-  .section--primary p {
-    color: #272044;
-  }
 
   .section--primary h1{
     font-family: 'PT Mono', monospace;
-    font-weight: 500;
-    font-size: 48px;
+    font-weight: 800;
+    font-size: 42px;
     color: #272044;
-    line-height: 48px;
-    margin: 0;
+    line-height: 42px;
+    padding: 32px;
   }
-  
+
   .section--secondary {
     margin: 0 auto;
   }
   
-  .section-header .emoji {
-    font-size: 34px;
-    line-height: 48px;
-  }
-  
   .section-header h2 {
-    font-family: Verdana;
-    font-size: 42px;
+    font-family: 'PT Mono', monospace;
+    font-size: 52px;
     line-height: 1.25;
     color: #272044;
     font-weight: 500;
   }
   
   .section-header h3 {
-    font-size: 16px;
-    line-height: 22px;
+    font-family: 'PT Mono', monospace;
+    font-size: 20px;
     color: #885df1;
     max-width: 750px;
     text-align: center;
-    font-weight: 700;
-    /* text-transform: uppercase; */
+    font-weight: 600;
     margin: 15px auto;
   }
   
   .section-header a {
     color: #885df1;
-    text-decoration: underline;
   }
   
   .section-header p {
@@ -266,22 +182,17 @@ html {
     transition: background-color 200ms ease;
   }
   
-  /*
-  .mission__list-item:hover {
-    background-color: #fffbef;
-  } */
-
   .mission__list-item h3 {
+    font-family: 'PT Mono', monospace;
     margin: 0 0 20px;
-    font-size: 28px;
+    font-size: 32px;
     line-height: 36px;
     font-weight: 600;
     color: #885df1;
-  }
+  } */
   
   .mission__list-item p {
     margin: 0;
-    color: #9C5D97;
   }
 
 
@@ -318,10 +229,6 @@ html {
   }
   
   .program-day li {
-    margin: 0;
-    padding: 0;
-    color: #9C5D97;
-    font-size: 14px;
     list-style: none;
   }
   
@@ -341,41 +248,6 @@ html {
     height: 70px;
   }
   
-  .section-separator--left {
-    background: url('../images/separators/separator--left.png') no-repeat 0 0;
-    height: 105px;
-  }
-  
-  .section-separator--left-secondary {
-    background: url('../images/separators/separator--left-secondary.png') no-repeat 0 0;
-    height: 105px;
-  }
-  
-  .section-separator--right {
-    background: url('../images/separators/separator--right.png') no-repeat right 0;
-    height: 105px;
-  }
-
-  .event {
-    padding-top: 30px;
-  }
-  
-  .event h3 {
-    line-height: 48px;
-    font-size: 34px;
-    color: #885df1;
-    font-weight: 900;
-    margin-bottom: 48px;
-  }
-  
-  .event h3 small {
-    display: block;
-    font-weight: 900;
-    color: #885df1;
-    font-size: 18px;
-    line-height: 25px;
-  }
-
   .teacher {
     padding: 24px 0;
     position: relative;
@@ -408,7 +280,6 @@ html {
     
   }
 
-
   .teacher h4 {
     color: #885DF1;
     font-weight: 900;
@@ -416,19 +287,6 @@ html {
     margin: 0;
     padding: 0;
   }
-  
-  
-  /*
-  .teacher--middle img {
-    border-radius: 50% 0 0 50%;
-  }
-  */
-  
-  /*
-  .teacher--middle .teacher-photo {
-    border-radius: 50% 0 0 50%;
-  } 
-  */
 
 
   .teacher--middle img {
@@ -436,11 +294,6 @@ html {
     left: 24px;
   } 
   
-  .teacher-description p {
-    color:       #9C5D97;
-    line-height: 1.5;
-    font-size:   16px;
-  }
   
 
   .teacher--middle .teacher-description {
@@ -448,5 +301,7 @@ html {
   }
 
   footer {
-    padding: 30px;
+    padding: 40px;
+    font-family: 'Tahoma';
+    font-size: 10px;
   }
